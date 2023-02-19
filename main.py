@@ -41,7 +41,7 @@ class Auto :
         
         return cantidadAsientos
     
-    def verficarIntegridad(self) :
+    def verificarIntegridad(self) :
         if self.motor != None and self.registro != self.motor.registro :
             return "Las piezas no son originales"
         
